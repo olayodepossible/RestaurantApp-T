@@ -38,9 +38,9 @@ const submit = () => {
                     class="w-full flex fixed justify-between bg-white dark:bg-gray-800 overflow-hidden shadow px-2"
                 >
                     <div class="shrink-0 flex items-center">
-                        <!-- <Link :href="route('/')"> -->
-                        <BreezeApplicationLogo class="block h-9 w-auto" />
-                        <!-- </Link> -->
+                        <Link :href="route('welcome')">
+                            <BreezeApplicationLogo class="block h-9 w-auto" />
+                        </Link>
                     </div>
                     <div class="hidden top-0 right-0 px-6 py-4 sm:block">
                         <Link

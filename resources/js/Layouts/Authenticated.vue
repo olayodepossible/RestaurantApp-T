@@ -37,6 +37,24 @@ const showingNavigationDropdown = ref(false);
                                 >
                                     Dashboard
                                 </BreezeNavLink>
+                                <BreezeNavLink
+                                    :href="route('management')"
+                                    :active="route().current('management')"
+                                >
+                                    Management
+                                </BreezeNavLink>
+                                <BreezeNavLink
+                                    :href="route('cashier')"
+                                    :active="route().current('cashier')"
+                                >
+                                    Cashier
+                                </BreezeNavLink>
+                                <BreezeNavLink
+                                    :href="route('report')"
+                                    :active="route().current('report')"
+                                >
+                                    Report
+                                </BreezeNavLink>
                             </div>
                         </div>
 
