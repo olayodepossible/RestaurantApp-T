@@ -64,7 +64,7 @@ import { Head, Link } from "@inertiajs/inertia-vue3";
                                 <div class="p-2 space-x-1.5">
                                     <i class="fa fa-align-justify"></i> Category
                                     <Link
-                                        :href="route('user')"
+                                        :href="route('category')"
                                         class="text-sm text-gray-700 float-right"
                                     >
                                         <button
